@@ -1,8 +1,10 @@
 # 测试
 
-## 查询cluster集群名称company_cluster
+## 查询cluster
+集群名称company_cluster
+```
 select * from system.clusters;
-
+```
 ## 只在当前节点创建本地数据库
 ```
 create database test;
